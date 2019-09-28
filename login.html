@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tourism</title>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/csspro.css">
+
+</head>
+<body id="page" >
+
+<div class="container ">
+
+    <nav class="navbar navbar-default  ">
+        <div class="container-fluid" >
+
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <p class="navbar-brand " >tourism</p>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">visits category<span class="caret"></span></a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#" >External tourism</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Internal tourism</a></li>
+                            <li class="divider"></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <a href="home.html"  class="btn btn-default"><span class=""></span>Home</a>
+                        <a href="#"  class="btn btn-default"><span class=""></span>Photos </a>
+                        <a href="#"  class="btn btn-default"><span class=""></span>about us</a>
+
+                        <a href=""  class="btn btn-default"><span class=""></span>Contact Us</a>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" class="form-control" placeholder="Search For A visit">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class=""></span>Search</button>
+
+
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>Sign in <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" data-toggle="modal" data-target="#login">Your Account</a></li>
+                            <li class="divider"></li>
+
+                            <li><a href=""  data-toggle="modal" data-target="#myModal">another account</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+
+
+
+
+
+
+    <!-- Modal register -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Registeration</h4>
+                </div>
+                <div class="modal-body btn-primary">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="txtName" class="control-label">Name:</label>
+                            <input type="text" id="txtName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="regpass" class="control-label">Password:</label>
+                            <input type="password" id="regpass" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="cregpass" class="control-label">Confirm Password:</label>
+                            <input type="password" id="cregpass" class="form-control">
+                        </div>
+
+                        <div class="form-group ">
+                            <label>Your Birth Date:-</label>
+                            <input type="date"  class="form-control alert-success" style="width: 300px" >
+
+                        </div>
+                        <div class="form-group " >
+                            <label for="countary">Enter your countary:</label>
+                            <select class="form-control w-25 p-3" style="width: 300px" >
+                                <option value="" >egypt</option>
+                                <option value="" >USA</option>
+                                <option value="" >france</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="btn-block ">Choose Your Gender:-</label>
+                        </div>
+                        <div class="form-group ">
+                            <label class="btn-block ">male:</label>
+                            <input type="radio"  >
+
+                        </div>
+                        <div class="form-group ">
+                            <label class="btn-block ">  female:</label>
+                            <input type="radio"    >
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="txtAddress" class="control-label">Address:</label>
+                            <textarea id="txtAddress" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default  btn-primary" data-dismiss="modal">Close</button>
+                    <a href="SIGNIN.html" type="submit" class="btn btn-default btn-primary" >Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="mylogLabel">Login</h4>
+                </div>
+                <div class="modal-body btn-primary">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="logName" class="control-label">Name:</label>
+                            <input type="text" id="logName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="txtpass" class="control-label">Password:</label>
+                            <input type="text" id="txtpass" class="form-control">
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default  btn-primary" data-dismiss="modal">Close</button>
+                    <a href="login.html" type="submit" class="btn btn-default btn-primary" >Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.3.1.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
